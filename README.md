@@ -7,10 +7,10 @@ Purpose and Description
 ------------------
 
 >This is a declaration of floraLam's personal blog site include :
-*	1,my details personal infomation
-*	2,work experience in the field of front-end development
-*	3,ability and capability
-*	4,a comment section so that you can leave a message to me!
+*	my details personal infomation
+*	work experience in the field of front-end development
+*	ability and capability
+*	a comment section so that you can leave a message to me!
 
 >I spared no efforts in it for a long time,aimed at sharing the technology I have learnt in the field of front-end development .
 
