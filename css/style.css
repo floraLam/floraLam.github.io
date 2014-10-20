@@ -1103,7 +1103,8 @@
 		background-attachment:fixed;
 		background-position:center;
 		color: #fff;
-		font-family: "微软雅黑"
+		font-family: "微软雅黑";
+        background-color: rgb(100,255,100);
 	}
 	
 		#main > section
