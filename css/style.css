@@ -1154,15 +1154,15 @@
 		.messageBox ul{ 
 			overflow: hidden;
 			padding: 1em;
-			padding-left: 5em;
+			padding-left: 3em;
 		} 
 		.messageBox ul li a{ 
 			text-decoration:none; 
 			color:#000; 
 			background:#ffc; 
 			display:block; 
-			height:10em; 
-			width:10em; 
+			height:11em; 
+			width:12em; 
 			padding:1em; 
 		} 
 		.messageBox ul li{ 
@@ -1179,7 +1179,7 @@
 		 .messageBox ul li p 
 		{ 
 			font-family: "Reenie Beanie" ,arial,sans-serif,"微软雅黑"; 
-			font-size: 0.8em; 
+			font-size: 0.7em; 
 		} 
 		.messageBox ul li a 
 		{ 
