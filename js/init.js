@@ -215,13 +215,23 @@
 					
 						window.setTimeout(function() {
 							var fi = jQuery('.image.featured');
-						
+						    var num = jQuery('.num');
 							// If we're mobile, do image alignment fix
 								if (skel.isActive('mobile'))
-									fi.each(function() { var img = jQuery(this).children('img'); img.css('left', '50%').css('margin-left', -1 * (img.width() / 2)); });
+								{	fi.each(function() { var img = jQuery(this).children('img'); img.css('left', '50%').css('margin-left', -1 * (img.width() / 2)); });
+                                 
+                                 num.each(function(){
+                                    jQuery(this).css('top',"-5.2em");
+                                 })
+                                 }
 							// Otherwise, remove the fix if it was applied previously
-								else
-									fi.each(function() { jQuery(this).children('img').css('left', 0).css('margin-left', 0); });
+								else{
+                                    fi.each(function() { jQuery(this).children('img').css('left', 0).css('margin-left', 0); });
+                                 num.each(function(){
+                                    jQuery(this).css('top',"-4.6em");
+                                 })
+                                }
+									
 									
 						}, 100);
 					

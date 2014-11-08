@@ -94,7 +94,7 @@ skel.registerPlugin('panels', (function() { var _ = {
 					style: null,
 					size: '80%',
 					html: '',
-					resetScroll: true,
+					resetScroll: false,
 					resetForms: true,
 					swipeToClose: true
 				},

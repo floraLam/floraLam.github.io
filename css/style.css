@@ -1103,7 +1103,7 @@
 	{
 		margin-left: 375px;
 		background-image:url('../images/bg.jpg');
-		background-repeat:repeat;
+		background-repeat:no-repeat;
 		background-attachment:fixed;
 		background-position:center;
 		color: #fff;
