@@ -57,6 +57,7 @@
 		{
 			font-size: 1.5em;
 			letter-spacing: -1px;
+			text-align: center;
 		}
 		
 			h2.alt
@@ -146,6 +147,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 2em;
+		text-align: center;
 	}
 
 	br.clear
@@ -484,7 +486,7 @@
 		
 			.item header
 			{
-				background: rgba(0,0,0,0.6);
+				background-image: url(../images/bg.png);
 				margin: 0;
 				padding: 1em 0 1em 0;
 				font-size: 0.8em;
@@ -1194,8 +1196,8 @@
 		} 
 		 .messageBox ul li p 
 		{ 
-			font-family: "Reenie Beanie" ,arial,sans-serif,"微软雅黑"; 
-			font-size: 0.7em; 
+			font-family: "微软雅黑" ,"黑体";
+			font-size: 1em;
 		} 
 		.messageBox ul li a 
 		{ 
@@ -1380,7 +1382,7 @@
 }
 .one1 p,.three1 p,.five1 p{
 	margin-right: 10em;
-	background-color: rgba(0,0,0,0.5);
+	background-image: url(../images/bg.png);
 	border-radius: 1em;
 	padding: 1em
 }
@@ -1419,6 +1421,9 @@
 	height: 10em;
 	background-position: top left
 }
+/*.one2{
+	visibility: hidden;
+}*/
 .three2{
 	background: url(../images/me-7.png);
 	background-repeat: no-repeat;
@@ -1426,7 +1431,7 @@
 	background-position: top left}
 .one2 p,.three2 p{
 	margin-left: 10em;
-	background-color: rgba(0,0,0,0.5);
+	background-image:url(../images/bg.png);
 	border-radius: 1em;
 	padding: 1em
 }
@@ -1583,7 +1588,18 @@
 }
 
 
+/*--------------------动画----------------------*/
 
-
-
+.tags{
+	background-image: url(../images/bg.png);
+	border-radius: 1em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+#bug header{
+	margin-top: 3em;
+}
+#bug footer{
+	margin-top: 6em;
+}
 

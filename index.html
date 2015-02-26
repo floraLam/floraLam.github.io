@@ -1,22 +1,24 @@
 <!DOCTYPE HTML>
 <!--
 	personal website by Flora Lam
-	www.linjinxin.com.cn | 0603ljx@163.com
+	wechat ：ljx13570234070 | email ：0603ljx@163.com
 	designed and developed by a litte gril from guangdong university of technology(major in software engineering) in china
 -->
 <html>
 	<head>
-		<title>floraLam | 林锦欣的个人网站</title>
+		<title>floraLam | 有这么一个她</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="青春和时光都会凋零，只有住在心里的那一朵花能够永远地灿烂下去。" />
 		<meta name="keywords" content="floraLam,林锦欣,个人博客,linjinxin" />
 	   <Link rel="Shortcut Icon" href="favicon.ico" \>
+	   	
         <meta name="Author" Content="林锦欣，0603ljx@163.com">
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.js"></script>
 		<script src="js/skel-panels.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/animate.js"></script>
 		<!--<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -24,6 +26,9 @@
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<style type="text/css">
+		
+		</style>
 	</head>
 	<body>
 
@@ -35,7 +40,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<!-- <span class="image avatar48"><img src="images/me.jpg"  /></span> -->
-							<h1 id="title">林锦欣</h1>
+							<h1 id="title">那个她</h1>
 							<span class="byline">Lam Flora</span>
 						</div>
 
@@ -48,7 +53,11 @@
 										<span class="fa fa-stack-exchange"><!-- Intro- -->关于她</span>
 									</a>
 								</li>
-
+								<li>
+									<a href="#bug" id="bug-link" class="skel-panels-ignoreHref">
+										<span class="fa fa-pagelines"><!-- Develop- -->走近她</span>
+									</a>
+								</li>
 								<li>
 									<a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref">
 										<span class="fa fa-pagelines"><!-- Develop- -->走近她</span>
@@ -59,11 +68,11 @@
 										<span class="fa fa-dot-circle-o"><!-- About Me- -->再走近</span>
 									</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="#about" id="about-link" class="skel-panels-ignoreHref">
-										<span class="fa fa-moon-o"><!-- Experience- -->但是呢</span>
+										<span class="fa fa-moon-o">但是呢</span>
 									</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="#contact" id="contact-link" class="skel-panels-ignoreHref">
 										<span class="fa fa-bug"><!-- Messages- -->总的来说</span>
@@ -85,33 +94,64 @@
 					<section id="top" class="one">
 						<div class="container">
 
-							<a  class="image featured"><img src="images/pic01.png" alt="" /></a>
+							<!-- <a  class="image featured"><img src="images/pic01.png" alt="" /></a> -->
 
-							<!-- <header>
-								<h2 class="alt">青春和时光都会凋零，只有住在心里的那一朵花能够永远地灿烂下去。</h2>
-							</header> -->
+							 <header>
+								<h2 class="alt">	</h2>
+							</header> 
 							
 							<div class = "one1">
 								<div class = "arrow-right"></div>
-								<p>
+								<p id = "one1">
 									都说这个年纪的女生，卖不了萌，装不了嫩，又不成熟，也没女人味，学业没结束，事业没开始!
 
 								</p>
 
 							</div>
 							<div class = "one2">
-								<div class = "arrow-down"></div>
-								<p>
+								<div class = "arrow-down" style ="visibility:hidden" id ="one2-arrow"></div>
+								<p id = "one2" style ="visibility:hidden">
 									又没啥特长专业，长得也就那么回事。。。矮油，都不想继续往下说了。。。...
 								</p>
 							</div>
-							<footer>
-								<a href="#portfolio" class="button scrolly">其实！</a>
-							</footer>
+							<a  class="image" href="#bug"  ><img src="images/arrow1.png" style ="visibility:hidden;" id ="arrow1" /></a>
 
 						</div>
 					</section>
-					
+					<section id="bug" class="one">
+						<div class="container">
+							<header>
+								<h2>不知道什么时候开始，多了几个标签</h2>
+							</header>
+							
+
+							<div class="row">
+								<div class="3u tags">
+									半凶半纯半天真
+								</div>
+								<div class="3u tags" >
+									淑女，形容词而已
+									
+								</div>
+								<div class="3u tags">
+									霸道是我的天性
+									
+								</div>
+								<div class="3u tags">
+									姿态小女有点傲
+								</div>
+
+							</div>
+							
+							
+							
+							
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly" id = "button1" style ="visibility:hidden;top:-2em">其实！</a>
+							</footer>
+						</div>
+					</section>
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
@@ -133,7 +173,7 @@
 									<article class="item">
 										<a  class="image full"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
-											<h3>她是一个有时候犯2的女汉子</h3>
+											<h3>她是一个慢慢学着温柔的女汉子</h3>
 										</header>
 									</article>
 								</div>
@@ -141,7 +181,7 @@
 									<article class="item">
 										<a  class="image full"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
-											<h3>她是一个慢慢学着温柔的巨蟹女</h3>
+											<h3>她是一个有时候犯2的巨蟹女</h3>
 										</header>
 									</article>
 									<article class="item">
@@ -155,7 +195,7 @@
 									<article class="item">
 										<a  class="image full"><img src="images/pic06.jpg" alt="" /></a>
 										<header>
-											<h3>她用尽全力去爱身边每个人</h3>
+											<h3>她是一个好学上进的程序媛</h3>
 										</header>
 									</article>
 									<article class="item">
@@ -220,7 +260,7 @@
 						</div>
 					</section>
 				<!-- About Me -->
-					<section id="about" class="three">
+					<!-- <section id="about" class="three">
 						<div class="container">
 
 							<header>
@@ -257,11 +297,9 @@
 								</div>
 								
 						</div>
-					</section>	
+					</section>	 -->
 					
-			<style type="text/css">
-				
-			</style>
+		
 				<!-- Contact -->
 					<section id="contact" class="five">
 						<div class="container">
@@ -273,33 +311,33 @@
 							<div  class = "messageBox"> 
 								<ul> 
 									<li><a > 
-										<h2>基本资料</h2> 
+										<!-- <h2>基本资料</h2>  -->
 										<p>工作积极认真，细心负责</p> 
 										</a>
 									</li> 
 							
 									<li><a > 
-										<h2>联系方式</h2> 
+										<!-- <h2>联系方式</h2>  -->
 										<p> 活泼开朗、乐观向上、兴趣广泛</p> 
 										</a>
 									</li> 
 									<li><a > 
-										<h2>希望从事</h2> 
+										<!-- <h2>希望从事</h2>  -->
 										<p>适应力、感悟力强，能很快融入团队</p> 
 										</a>
 									</li> 
 									<li><a > 
-										<h2>院校专业</h2> 
+										<!-- <h2>院校专业</h2>  -->
 										<p>勤奋好学，踏实肯干，动手能力强</p> 
 										</a>
 									</li>
 									<li><a > 
-										<h2>我的性格</h2> 
+										<!-- <h2>我的性格</h2>  -->
 										<p>乐观 活泼 开朗 大方 风趣 乐于与人分享，与人交流</p> 
 										</a>
 									</li> 
                                    <li><a > 
-										<h2>我的爱好</h2> 
+										<!-- <h2>我的爱好</h2>  -->
 										<p>易满足，不妒忌，心境平和 </p> 
 										</a>
 									</li> 
