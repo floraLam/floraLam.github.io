@@ -11,7 +11,7 @@ body{margin:0;line-height:1.5em;overflow-x:hidden }
 .yh{font-family:"微软雅黑";}
 
 .wrap-banner{height:430px;background:#41b0ff ;overflow:hidden;}
-.banner{height:430px;background:url(banner-bg.jpg) bottom no-repeat;}
+.banner{height:430px;background:url(banner-bg0.jpg) bottom no-repeat;}
 .banner .layout{height:100%;}
 .banner .logo{position: absolute;left: 485px;top: 100px;font-family: "微软雅黑";font-size: 65px;font-weight: bold;color: #ec433d;}
 .banner .logo img{position: absolute;top: -30px;left: 40px;
@@ -51,10 +51,10 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 .mod-a0 .sun-container .sun{ width:110px;height: 110px;border-radius: 55px;background: #FFCC99;border:2px solid #FF9900;position:absolute;top:30px;left: 10px;}
 .mod-a0 .sun-container .sun:before{content: " ";display: block;width:100px;height: 100px;border-radius: 50px;background: #FF9900;position: relative;top: 5px;left: 5px;}
 .mod-a0 .sun-container .sun:after{content: " ";display: block;width:50px;height: 50px;border-radius: 25px;background: #FFCC33;position: relative;top: -70px;left: 30px;}
-.mod-a0 .sun-container .sunshine{background: url(shushine.png);height:360px;width:360px;}
+.mod-a0 .sun-container .sunshine{background: url(shushine0.png);height:360px;width:360px;}
 .layout .balloon{content:" ";display:block;background: url(balloon.png);height:227px;width:157px;float: right;margin-top: -50px;}
 .layout .balloon-text{font-family:"微软雅黑";color: #0066CC;font-size: 20px;text-shadow: 3px 3px 3px #ccc;padding: 30px 0px 50px;line-height: 1.5em;}
-.mod-a0 .sun-container .sunshine:before{content:" ";display:block;background: url(shushine3.png);height:72px;width:900px;
+.mod-a0 .sun-container .sunshine:before{content:" ";display:block;background: url(shushine30.png);height:72px;width:900px;
 	transform:rotate(15deg);
 	-ms-transform:rotate(15deg); /* IE 9 */
 	-moz-transform:rotate(15deg); /* Firefox */
@@ -104,7 +104,7 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 .mod-a5 .pic{position:absolute;width:300px;font-family: "微软雅黑";font-size:16px;color: #ec433d;}
 .mod-a5 .pic0{top: 100px;left: 50%;margin-left: -108px;}
 .mod-a5 .pic1{left:105px;top:35px;color:#003300;background: url(5_pic1.png) no-repeat top left;padding-left: 120px;height: 100px;width: 250px;}
-.mod-a5 .pic2{right:125px;top:150px;color: #333399;background: url(5_pic2.jpg) no-repeat top left;padding-left: 120px;height: 100px;width: 160px;}
+.mod-a5 .pic2{right:125px;top:150px;color: #333399;background: url(5_pic20.jpg) no-repeat top left;padding-left: 120px;height: 100px;width: 160px;}
 .mod-a5 .pic3{left:100px;top:285px;color: #660066;background: url(5_pic3.png) no-repeat top left;padding-left: 120px;height: 100px;width: 160px;}
 .mod-a5 .pic4{right:170px;top:405px;color: #663300;background: url(5_pic4.png) no-repeat top left;padding-left: 120px;height: 100px;width: 250px;}
 
@@ -163,7 +163,7 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 
 /* 脚部海洋 */
 .footer{height: 239px;background: url(footer-bg.png);}
-.footer .footer-main{font-size:14px;font-family:'微软雅黑';height: 239px;background: url(footer.jpg) bottom no-repeat;text-align:center;}
+.footer .footer-main{font-size:14px;font-family:'微软雅黑';height: 239px;background: url(footer0.jpg) bottom no-repeat;text-align:center;}
 .footer .bird{height: 50px;width: 100px;position: relative;}
 .footer .bird0{background: url(bird0.png) no-repeat;left: 50px;top: 50px;}
 .footer .bird1{background: url(bird1.png) no-repeat;right: 150px;float: right;top: 70px;}
@@ -297,7 +297,7 @@ font-weight: bold;}
 #lh_nav img{margin: 0; padding:0; text-decoration: none; border: 0;}
 #lh_nav .lf_bg{width:50%; height:60px; background: #16486c; position: absolute; top:0; left:0;}
 #lh_nav .lr_bg{width:50%; height:60px; background: #216ca1; position: absolute; top:0; right:0;}
-#lh_nav .nav_box{width:1000px; height:60px; position: absolute; top:0; left:50%; margin-left:-500px; background: #216ca1 url(nav_bg_01.jpg) left top no-repeat; z-index: 10;}
+#lh_nav .nav_box{width:1000px; height:60px; position: absolute; top:0; left:50%; margin-left:-500px; background: #216ca1 url(nav_bg_010.jpg) left top no-repeat; z-index: 10;}
 
 
 /*----------------------------------------------toTop-------------------------------------------*/
