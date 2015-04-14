@@ -51,10 +51,10 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 .mod-a0 .sun-container .sun{ width:110px;height: 110px;border-radius: 55px;background: #FFCC99;border:2px solid #FF9900;position:absolute;top:30px;left: 10px;}
 .mod-a0 .sun-container .sun:before{content: " ";display: block;width:100px;height: 100px;border-radius: 50px;background: #FF9900;position: relative;top: 5px;left: 5px;}
 .mod-a0 .sun-container .sun:after{content: " ";display: block;width:50px;height: 50px;border-radius: 25px;background: #FFCC33;position: relative;top: -70px;left: 30px;}
-.mod-a0 .sun-container .sunshine{background: url(shushine.png);height:360px;width:360px;}
+.mod-a0 .sun-container .sunshine{background: url(shushine.jpg);height:360px;width:360px;}
 .layout .balloon{content:" ";display:block;background: url(balloon.png);height:227px;width:157px;float: right;margin-top: -50px;}
 .layout .balloon-text{font-family:"微软雅黑";color: #0066CC;font-size: 20px;text-shadow: 3px 3px 3px #ccc;padding: 30px 0px 50px;line-height: 1.5em;}
-.mod-a0 .sun-container .sunshine:before{content:" ";display:block;background: url(shushine3.png);height:72px;width:900px;
+.mod-a0 .sun-container .sunshine:before{content:" ";display:block;background: url(shushine3.jpg);height:72px;width:900px;
 	transform:rotate(15deg);
 	-ms-transform:rotate(15deg); /* IE 9 */
 	-moz-transform:rotate(15deg); /* Firefox */
@@ -151,7 +151,7 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 .mod-a9 .pic2{right:90px;bottom:26px;}
 /* hdpic */
 .hdpic{ width:960px; margin:0 auto 15px auto; overflow:hidden;font-family: "微软雅黑";font-size: 13px}
-.picqqtit{ float:left; width:230px; height:130px; margin:0 1px 1px 0; display:inline; background:url(picbg.png) no-repeat;}
+.picqqtit{ float:left; width:230px; height:130px; margin:0 1px 1px 0; display:inline; background:url(picbg.jpg) no-repeat;}
 .picqqtit a{ display:block; width:239px; height:117px; line-height:38px; padding-top:35px; text-align:center; font-family:Microsoft YaHei; font-size:25px;}
 .picqqtit a:link,.picqqtit a:visited{ color:#fff; text-decoration:none;}        .picqqtit a:hover{ color:#fff; text-decoration:none;}
 .hdpic dd{ float:left; width:239px; height:152px; margin:0 1px 1px 0; display:inline;}
@@ -163,7 +163,7 @@ border-right: 15px solid #ec433d;width: 0;height: 0px;position: absolute;margin-
 
 /* 脚部海洋 */
 .footer{height: 239px;background: url(footer-bg.png);}
-.footer .footer-main{font-size:14px;font-family:'微软雅黑';height: 239px;background: url(footer.png) bottom no-repeat;text-align:center;}
+.footer .footer-main{font-size:14px;font-family:'微软雅黑';height: 239px;background: url(footer.jpg) bottom no-repeat;text-align:center;}
 .footer .bird{height: 50px;width: 100px;position: relative;}
 .footer .bird0{background: url(bird0.png) no-repeat;left: 50px;top: 50px;}
 .footer .bird1{background: url(bird1.png) no-repeat;right: 150px;float: right;top: 70px;}
