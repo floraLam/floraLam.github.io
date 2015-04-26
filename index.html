@@ -292,7 +292,7 @@
         <!-- /程序媛 -->
 
     </div>
-
+    <div class = "footer-text">>她是一个很值得认识的人喔！<</div>
 </div>
 
 
@@ -390,6 +390,8 @@ $(window).on("scroll", function(){
 });
 
 $(document).ready(function() {
+  console.info($("ul li").get(1)); //这个是错误的
+  console.info($("ul li").eq(1));  //这个是正确的
     $(".hdpic dd a").hover(function() {
         $(this).find(".picshine").stop();
         $(this).find(".picshine").css("background-position", "-235px 0");

@@ -22,8 +22,8 @@ body{margin:0;line-height:1.5em;overflow-x:hidden }
   animation-iteration-count:infinite;
   -webkit-animation-iteration-count:infinite;}
 .banner .txt{position:absolute;left:485px;top:200px;line-height:30px;color:#FFF;}
-
-.main-con{background-color:#dff1ff;}
+.footer-text{text-align: center;font-family: "微软雅黑";font-size: 25px;margin-top: 100px;color: #ec433d;font-weight: bold;}
+.main-con{background-color:#dff1ff;padding-bottom: 100px;}
 .mod-a{padding-top: 50px;}
 .mod-a .hd{margin-bottom:40px;border-bottom:1px solid #ec433d;text-align:center;}
 .mod-a .hd .tit{position: relative;top: 10px;float: none;font-family: "微软雅黑";background: #dff1ff;color: #ec433d;font-size: 40px;font-weight: bold;letter-spacing: 0.2em;}
