@@ -1,7 +1,7 @@
 Welcome to my personal blog site!
 ==================
 
-林锦欣的个人博客，访问地址「floraLam.github.io」
+林锦欣的个人博客，[访问地址http://floraLam.github.io](http://floraLam.github.io)
 
 Purpose and Description
 ------------------
